@@ -5,16 +5,7 @@
 ;
 
 ;
-;
-; This file can be assembled into IPS or O65
-; using Nescom - http://bisqwit.iki.fi/source/nescom.html
-; and then reinserted into the ROM with a tool of choice.
-;
-; Note: Mega Man 2 has almost the same code!
-;
-
 #define Var41 $41   ;If this address has low bit set, the engine pauses music (read only)
-
 #define Priorities                   $E0
 ; $E0 = #ssssmmmm
 ; mmmm = Music priority (always #$F?...)
